@@ -1,0 +1,85 @@
+body {
+  background-color: #e6ccb3;
+}
+
+h1 {
+  color: black;
+  font-family: segoe print;
+  font-size: 65px;
+  margin: 0;
+}
+
+  h2 {
+    color: black;
+    font-family: segoe print;
+}
+
+p {
+  color: black;
+  font-family: gabriola;
+  font-size: 20px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.startbild {
+  width: 1000px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.om {
+  width: 200px;
+  border: 2px solid #d9b18c;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 100px;
+}
+
+.resultatbilder {
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.omresultat {
+    display: flex;
+
+}
+
+.resultat {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-left: 300px;
+}
+
+.resultatbilder img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.länk {
+  width: 140px;
+  background-color: #d9b18c;
+  margin: 2px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 22px;
+  font-family: gabriola;
+}
+
+.karta {
+  width: 500px;
+  border-radius: 20px;
+}
