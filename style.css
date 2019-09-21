@@ -20,9 +20,9 @@ p {
   font-size: 20px;
 }
 
-.center {
+.top {
   display: flex;
-  align-items: center;
+  align-items: right;
   flex-direction: column;
 }
 
@@ -33,6 +33,10 @@ p {
   align-items: center;
 }
 
+.omresultat {
+    display: flex;
+}
+
 .om {
   width: 200px;
   border: 2px solid #d9b18c;
@@ -40,7 +44,14 @@ p {
   padding-right: 7px;
   padding-top: 0;
   padding-bottom: 0;
-  margin-top: 100px;
+  margin-top: 80px;
+}
+
+.resultat {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  margin-left: 100px;
 }
 
 .resultatbilder {
@@ -51,25 +62,13 @@ p {
   flex-wrap: wrap;
 }
 
-.omresultat {
-    display: flex;
-
-}
-
-.resultat {
-  display: flex;
-  flex-direction: column;
-  margin-top: 100px;
-  margin-left: 300px;
-}
-
 .resultatbilder img {
   height: 200px;
   width: 200px;
   border-radius: 50%;
 }
 
-.länk {
+.boka {
   width: 140px;
   background-color: #d9b18c;
   margin: 2px;
@@ -79,7 +78,47 @@ p {
   font-family: gabriola;
 }
 
+.sidfot {
+  display: flex;
+}
+
+.länkarna {
+  display: flex;
+  flex-direction: column;
+}
+
+.länk {
+  display: flex;
+  flex-direction: column;
+}
+
+.hemsida {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  background-color: #d9b18c;
+  margin-bottom: 2px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 22px;
+  font-family: gabriola;
+}
+
+.kontakter {
+  width: 400px;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.kartan {
+  display: flex;
+  flex-direction: column;
+  margin-left: 120px;
+}
+
 .karta {
-  width: 500px;
+  width: 450px;
   border-radius: 20px;
 }
