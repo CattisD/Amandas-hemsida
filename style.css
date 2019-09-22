@@ -1,5 +1,5 @@
 body {
-  background-color: #e6ccb3;
+  background-color: #ecd9c6;
 }
 
 h1 {
@@ -35,9 +35,11 @@ p {
 
 .startbild {
   width: 1000px;
-  border-radius: 20px;
+  border: 20px solid #e6ccb3;
+  border-radius: 100px;
   display: flex;
   align-items: center;
+
 }
 
 .omresultat {
@@ -46,7 +48,7 @@ p {
 
 .om {
   width: 200px;
-  border: 2px solid #d9b18c;
+  border: 2px solid #e6ccb3;
   padding-left: 7px;
   padding-right: 7px;
   padding-top: 0;
@@ -77,7 +79,7 @@ p {
 
 .boka {
   width: 140px;
-  background-color: #d9b18c;
+  background-color: #e6ccb3;
   margin: 2px;
   border-radius: 20px;
   text-align: center;
