@@ -9,9 +9,16 @@ h1 {
   margin: 0;
 }
 
-  h2 {
-    color: black;
-    font-family: segoe print;
+h2 {
+  color: black;
+  font-family: segoe print;
+}
+
+h3 {
+  color: black;
+  font-family: gabriola;
+  font-size: 24px;
+  margin: 0;
 }
 
 p {
@@ -92,16 +99,26 @@ p {
   flex-direction: column;
 }
 
-.hemsida {
+.aknappar {
   display: flex;
-  flex-direction: column;
-  width: 150px;
-  background-color: #d9b18c;
-  margin-bottom: 2px;
-  border-radius: 20px;
-  text-align: center;
-  font-size: 22px;
-  font-family: gabriola;
+  flex-direction: row;
+}
+
+.tknappar {
+  display: flex;
+  flex-direction: row;
+}
+
+.fknapp img {
+  height: 100px;
+  width: 100px;
+  border-radius: 20%;
+}
+
+.iknapp img {
+  height: 100px;
+  width: 100px;
+  border-radius: 20%;
 }
 
 .kontakter {
